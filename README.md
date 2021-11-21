@@ -22,3 +22,5 @@ You can click the Preview link to take a look at your changes.
     <li>Python</li>
   </ul>
 </details>
+<hr/>
+<p>Mi twitter <kbd>Twitter</kbd>, subo cosas sin sentido xD</p>
