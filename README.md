@@ -4,7 +4,7 @@ roke741/roke741 is a ✨ special ✨ repository because its `README.md` (this fi
 You can click the Preview link to take a look at your changes.
 --->
 <p style="align:center">Hola, mi nombre es Jhordie Roque 👦 programo 🖥️ porque me gusta 👽😆</p>
-<p style="align:center; transform: scale(0.7);">
+<p style="align:center; transform: scale(0.2);">
 <img src="https://user-images.githubusercontent.com/65454249/142749625-fabb65fb-b5b9-4119-85d0-5496a363a1e4.gif">
 </p>
 <details>
