@@ -23,4 +23,4 @@ You can click the Preview link to take a look at your changes.
   </ul>
 </details>
 <hr/>
-<p>Mi twitter <a href="https://twitter.com/intent/tweet?text=@JhordieRoque%20uwu%20hello%21%20"><kbd>Twitter</kbd></a>, subo cosas sin sentido xD</p>
+<p>Mi <a href="https://twitter.com/intent/tweet?text=@JhordieRoque%20uwu%20hello%21%20"><kbd>Twitter</kbd></a>, subo cosas sin sentido xD</p>
