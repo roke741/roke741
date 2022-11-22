@@ -12,8 +12,8 @@ You can click the Preview link to take a look at your changes.
   <p>Estoy aprendiendo🤓: </p>
   <ul>
     <li>JavaScript</li>
-    <li>PHP</li>
-    <li>Kotlin</li>
+    <li>Angular</li>
+    <li>Typescript</li>
   </ul>
   <p>Aprendido: </p>
   <ul>
