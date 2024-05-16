@@ -1,5 +1,5 @@
 # 💫 About Me:
-😎 Hola mi nombre es Jordie<br>🤓 Soy estudiante de Computación e Informática<br>💻 Me gusta programar<br>⚡ Siempre positivo
+😎 Hola mi nombre es Jordie<br>💻 Me gusta programar<br>⚡ Siempre positivo
 
 
 ## 🌐 Socials:
