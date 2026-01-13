@@ -12,6 +12,7 @@ jobs:
 
       # REPOS Y PERFIL 
       - name: 🦑 Perfil y Repositorios
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -29,6 +30,7 @@ jobs:
 
       # CALENDAR 
       - name: 🦑 Calendar
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -41,6 +43,7 @@ jobs:
 
       # LENGUAJES 
       - name: 🦑 Lenguajes
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -59,6 +62,7 @@ jobs:
 
       # LOGROS 
       - name: 🦑 Logros
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -77,17 +81,24 @@ jobs:
 
       # TERMINAL 
       - name: 🦑 Terminal
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: roke741
           base: header, metadata
           delay: 120
-          template: "terminal"
+          template: terminal
           filename: terminal.svg
           plugin_lines: yes
-          plugins_errors_fatal: yes
           description: |
+            $ sudo apt install year-2026 --with-coffee
+            Reading package lists... Done
+            Building dependency tree... Done
+            Preparing your next commits 🚀
+          plugin_lines_sections: base
+          plugin_lines_delay: 0
+          plugin_lines_message: |
             $ sudo apt install year-2026 --with-coffee
             Reading package lists... Done
             Building dependency tree... Done
@@ -97,6 +108,7 @@ jobs:
 
       # TOPICS 
       - name: 🦑 Topics
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
