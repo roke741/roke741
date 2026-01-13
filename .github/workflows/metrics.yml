@@ -17,7 +17,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: roke741
           filename: profile.svg
-          preset: minimal
           base: header, repositories
           config_display: large
           config_timezone: America/Lima
@@ -35,7 +34,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: roke741
           filename: calendar.svg
-          preset: minimal
           base: ""
           plugin_calendar: yes
           output_action: commit
@@ -48,7 +46,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: roke741
           filename: languages.svg
-          preset: minimal
           base: ""
           plugin_languages: yes
           plugin_languages_visibility: all
@@ -62,28 +59,34 @@ jobs:
 
       # LOGROS 
       - name: 🦑 Logros
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: roke741
           filename: achievements.svg
           base: ""
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_fortune: yes
           output_action: commit
           committer_gist: ${{ secrets.METRICS_TOKEN }}
+          plugin_achievements: yes
+          plugin_achievements_only: >-
+            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
+            scripter, packager, explorer, infographile, manager
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: X
+          plugin_fortune: yes
 
       # TERMINAL 
       - name: 🦑 Terminal
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: roke741
-          template: terminal
-          filename: terminal.svg
           base: header, metadata
+          delay: 120
+          template: "terminal"
+          filename: terminal.svg
           plugin_lines: yes
+          plugins_errors_fatal: yes
           description: |
             $ sudo apt install year-2026 --with-coffee
             Reading package lists... Done
