@@ -67,7 +67,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: roke741
           filename: achievements.svg
-          preset: minimal
           base: ""
           plugin_achievements: yes
           plugin_achievements_display: compact
@@ -81,12 +80,11 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: roke741
+          template: terminal
           filename: terminal.svg
           base: header, metadata
           plugin_lines: yes
-          plugin_lines_sections: base
-          plugin_lines_delay: 0
-          plugin_lines_message: |
+          description: |
             $ sudo apt install year-2026 --with-coffee
             Reading package lists... Done
             Building dependency tree... Done
