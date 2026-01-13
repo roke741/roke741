@@ -16,7 +16,7 @@ jobs:
           # Perfil
           user: roke741
           template: classic
-          base: header, activity, repositories
+          base: header, repositories
 
           # Tema oscuro
           config_display: large
@@ -27,6 +27,9 @@ jobs:
           repositories_forks: no
           repositories_affiliations: owner
           repositories_privacy: private, public
+
+          # Calendar
+          plugin_calendar: yes
 
           # Actividad real
           plugin_activity: no
@@ -60,9 +63,6 @@ jobs:
             Reading package lists... Done
             Building dependency tree... Done
             Preparing your next commits 🚀
-
-          # Calendar
-          plugin_calendar: yes
 
           # Start Topics
           plugin_topics: yes
