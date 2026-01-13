@@ -1,4 +1,4 @@
-name: GitHub Metrics
+name: Metrics
 
 on:
   schedule:
@@ -9,37 +9,47 @@ jobs:
   metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+
+      # REPOS Y PERFIL 
+      - name: 🦑 Perfil y Repositorios
+        uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # Perfil
           user: roke741
-          template: classic
+          filename: profile.svg
           preset: minimal
           base: header, repositories
-
-          # Tema oscuro
           config_display: large
           config_timezone: America/Lima
           config_theme: dark
-
-          # Repositorios
           repositories_forks: no
           repositories_affiliations: owner
           repositories_privacy: private, public
+          output_action: commit
+          committer_gist: ${{ secrets.METRICS_TOKEN }}
 
-          # Calendar
+      # CALENDAR 
+      - name: 🦑 Calendar
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: roke741
+          filename: calendar.svg
+          preset: minimal
+          base: ""
           plugin_calendar: yes
+          output_action: commit
+          committer_gist: ${{ secrets.METRICS_TOKEN }}
 
-          # Actividad real
-          plugin_activity: no
-          #plugin_activity_days: 14
-          #plugin_activity_limit: 5
-          #plugin_activity_visibility: public
-          
-
-          # Lenguajes
+      # LENGUAJES 
+      - name: 🦑 Lenguajes
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: roke741
+          filename: languages.svg
+          preset: minimal
+          base: ""
           plugin_languages: yes
           plugin_languages_visibility: all
           plugin_languages_threshold: 2%
@@ -47,15 +57,35 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_limit: 8
           plugin_languages_ignored: html, css
+          output_action: commit
+          committer_gist: ${{ secrets.METRICS_TOKEN }}
 
-          # Logros
+      # LOGROS 
+      - name: 🦑 Logros
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: roke741
+          filename: achievements.svg
+          preset: minimal
+          base: ""
           plugin_achievements: yes
           plugin_achievements_threshold: C
           plugin_achievements_secrets: no
           plugin_achievements_display: detailed
           plugin_achievements_limit: 6
+          output_action: commit
+          committer_gist: ${{ secrets.METRICS_TOKEN }}
 
-          # Terminal
+      # TERMINAL 
+      - name: 🦑 Terminal
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: roke741
+          filename: terminal.svg
+          preset: minimal
+          base: ""
           plugin_lines: yes
           plugin_lines_sections: base
           plugin_lines_delay: 0
@@ -64,9 +94,20 @@ jobs:
             Reading package lists... Done
             Building dependency tree... Done
             Preparing your next commits 🚀
+          output_action: commit
+          committer_gist: ${{ secrets.METRICS_TOKEN }}
 
-          # Start Topics
+      # TOPICS 
+      - name: 🦑 Topics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: roke741
+          filename: topics.svg
+          preset: minimal
+          base: ""
           plugin_topics: yes
           plugin_topics_mode: mastered
           plugin_topics_limit: 6
-
+          output_action: commit
+          committer_gist: ${{ secrets.METRICS_TOKEN }}
