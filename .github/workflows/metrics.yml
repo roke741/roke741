@@ -39,6 +39,7 @@ jobs:
           plugin_languages_visibility: all
           plugin_languages_threshold: 2%
           plugin_languages_details: bytes-size
+          plugin_languages_indepth: yes
           plugin_languages_limit: 8
           plugin_languages_ignored: html, css
 
