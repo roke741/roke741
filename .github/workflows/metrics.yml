@@ -70,10 +70,8 @@ jobs:
           preset: minimal
           base: ""
           plugin_achievements: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_secrets: no
-          plugin_achievements_display: detailed
-          plugin_achievements_limit: 6
+          plugin_achievements_display: compact
+          plugin_fortune: yes
           output_action: commit
           committer_gist: ${{ secrets.METRICS_TOKEN }}
 
@@ -84,8 +82,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: roke741
           filename: terminal.svg
-          preset: minimal
-          base: ""
+          base: header, metadata
           plugin_lines: yes
           plugin_lines_sections: base
           plugin_lines_delay: 0
