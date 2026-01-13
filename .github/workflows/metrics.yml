@@ -16,6 +16,7 @@ jobs:
           # Perfil
           user: roke741
           template: classic
+          preset: minimal
           base: header, repositories
 
           # Tema oscuro
