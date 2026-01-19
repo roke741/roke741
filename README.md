@@ -46,8 +46,8 @@ Soy un apasionado por la tecnología y el desarrollo de software. Me especializo
 ### 📊 Mis Estadísticas
 
 <p align="center">
-  <img src="./calendar.svg" alt="Activity Calendar" width="63%">
-  <img src="./languages.svg" alt="Languages Metrics" width="35%">
+  <img src="./calendar.svg" alt="Activity Calendar" width="49%">
+  <img src="./languages.svg" alt="Languages Metrics" width="49%">
 </p>
 
 <p align="center">
@@ -59,6 +59,3 @@ Soy un apasionado por la tecnología y el desarrollo de software. Me especializo
   <img src="./topics.svg" alt="Topics" width="49%">
 </p>
 
-<p align="center">
-  <img src="./terminal.svg" alt="Terminal Stats" width="70%">
-</p>
