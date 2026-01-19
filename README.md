@@ -45,16 +45,20 @@ Soy un apasionado por la tecnología y el desarrollo de software. Me especializo
 
 ### 📊 Mis Estadísticas
 
-<img src="./terminal.svg" alt="Terminal Stats" width="100%">
+<p align="center">
+  <img src="./terminal.svg" alt="Terminal Stats" width="70%">
+</p>
 
-<br>
+<p align="center">
+  <img src="./profile.svg" alt="Profile Metrics" width="63%">
+  <img src="./languages.svg" alt="Languages Metrics" width="35%">
+</p>
 
-<img src="./profile.svg" alt="Profile Metrics" width="49%"> <img src="./languages.svg" alt="Languages Metrics" width="49%">
+<p align="center">
+  <img src="./calendar.svg" alt="Activity Calendar" width="85%">
+</p>
 
-<br>
-
-<img src="./calendar.svg" alt="Activity Calendar" width="100%">
-
-<br>
-
-<img src="./achievements.svg" alt="Achievements" width="49%"> <img src="./topics.svg" alt="Topics" width="49%">
+<p align="center">
+  <img src="./achievements.svg" alt="Achievements" width="49%">
+  <img src="./topics.svg" alt="Topics" width="49%">
+</p>
