@@ -16,16 +16,15 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 3.93mb of code in 969 edited files across 253 commits</small>
+                <small>estimation from 3.50mb of code in 886 edited files across 244 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="157.39557947570526" height="8" fill="#4F5D95"/>
-                    <rect mask="url(#languages-bar)" x="157.39557947570526" y="0" width="125.69662780602218" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="283.09220728172744" y="0" width="110.097507245876" height="8" fill="#ededed"/>
-                    <rect mask="url(#languages-bar)" x="393.1897145276035" y="0" width="66.81028547239657" height="8" fill="#ff5a03"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="184.1400318566612" height="8" fill="#4F5D95"/>
+                    <rect mask="url(#languages-bar)" x="184.1400318566612" y="0" width="147.0548355015807" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="331.19486735824194" y="0" width="128.8051326417581" height="8" fill="#ededed"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -62,17 +61,6 @@
                             </div>
                             <small>
                                 <div>316 kB</div>
-                            </small>
-                        </div>
-                        <div class="field language details">
-                            <div class="field">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#ff5a03" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                                </svg>
-                                Astro
-                            </div>
-                            <small>
-                                <div>168 kB</div>
                             </small>
                         </div>
                     </section>
